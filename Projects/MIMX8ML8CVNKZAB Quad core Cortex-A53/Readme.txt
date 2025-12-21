@@ -1,0 +1,31 @@
+Using Altium Designer.
+-MIMX8ML8CVNKZAB Quad core Cortex-A53 @1600Mhz + Arm Cortex-M7 @800 Mhz
+-4GB LPDDR4 RAM
+-PMIC PCA9450
+-24 Mhz crystal
+-32.768 kHz crystal
+-EEPROM memory (for Linux configuration or settings)
+-Status LED
+-5 x 40 pin + 1 x 20 pin total 220 pin connectors with 1.27 mm/0.05" step
+-LVDS, 2 x MIPI CSI, MIPI DSI ribbon connectors on top
+-Extended operating temperature – from -20°C to +85°C
+-Dimensions: 70 x 43 mm
+-Quad Core Arm Cortex-A53 @1600Mhz + Arm Cortex-M7 @800 Mhz
+-512KB Cache
+-Vivante GC520L, Vivante GC7000UL
+-HDMI HD1080p60 H.264, HD1080p60 H.265, VP8 video codec, VP9 video codec.
+-MIPI-DSI
+-LVDS 4/8 lanes
+-NPU 2.3 TOPS
+-2 x Gigabit Ethernet (1 x TSN)
+-2 x MIPI-CSI camera
+-1 x ISP camera
+-2 x USB3 with OTG
+-1 x PCIE 3.0
+-2 x CAN FD
+-3 x SPI
+-5 x I2C
+-3 x SDIO eMMC 5.1
+-4 x UART 5Mbit
+-4 x PWM
+-Audio: ASRC, HiFi 4 DSP, SAI/I2S, eARC.
