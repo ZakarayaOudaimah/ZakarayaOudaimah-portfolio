@@ -16,13 +16,10 @@
 void ConvertStringMACtoCharr(const char *macString);
 void ENC_Connect();
 void MQTT_ConnectProccessing();
-void PublishMACCooRoBroker();
+void PublishMACCooRoBroker(char *mess, size_t length);
 void PublishDataBase(char *database);
-void PublishOnNewNodeAdded(char *MacNewNode);
-void PublishUpdateOnNetwork(char *UpdateMessga);
-//void PublishCommandReply(char *CommandReplyMessga);
-//void PublishAlertMessages(char *AlertMessga);
-void publishDevices(char *domain , char *mess);
+void PublishOnNewNodeAdded(char *MacNewNode, size_t length);
+void publishDevices(char *domain, char *mess, int length);
 void scaningConnection();
 void MQTTLOOP();
 
